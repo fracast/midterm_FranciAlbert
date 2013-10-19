@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/* ESCA CSS - FRANCESCA CASTELLI & ALBERT KIM */
+
+/* General */
+
+html, body {
+margin: 0;
+padding: 0;
+}
+
+body {
+background: #eaecea;
+font-family: helvetica;
+}
+
+	body a {
+	text-rendering: optimizeLegibility;
+	}
+
+#wrapper {
+overflow: hidden;
+min-width: 800px;
+}
+
+/* Molecule */
+
+/* laboratory */
+
+/* synthetize */
+
+/* filament */
+
+/* printing */
+
+
+/* Media queries */
+
+@media (min-width: 320px) and (max-width: 1080px) {
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+}
