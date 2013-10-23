@@ -53,10 +53,10 @@ h2{
 	text-align:center;
 	text-transform: uppercase;
 	color:lime;
-
 }
 
 p{
+	
 	font-family:'Open Sans';
 	font-weight: 300;
 	font-size: 1.2em;
@@ -97,7 +97,11 @@ p{
 	margin-left:35%;
 	margin-right: 35%;
 	margin-top: -32%;	
+<<<<<<< HEAD
 	z-index: 10;
+=======
+	z-index: 0;
+>>>>>>> 3013e6d8a9977d9102a035987d7bbeb67f26fe50
 }
 
 #intro h2{
@@ -129,27 +133,47 @@ p{
 }
 
 #intro-text{
+<<<<<<< HEAD
 	background-color:green;
+=======
+	background: url(../img/slide0.png) no-repeat fixed; 
+	background-size: 100%;
+>>>>>>> 3013e6d8a9977d9102a035987d7bbeb67f26fe50
 	height:716px;
 }
 
 #creation{
 	background: url(../img/slide.png) no-repeat fixed;
+<<<<<<< HEAD
 	height:716px;
+=======
+	background-size: 100%;
+	height:716px;
+	z-index:0;
+>>>>>>> 3013e6d8a9977d9102a035987d7bbeb67f26fe50
 }
 
 #mixing-process{
 	background: url(../img/slide2.png) no-repeat fixed;
+<<<<<<< HEAD
+=======
+	background-size: 100%;
+>>>>>>> 3013e6d8a9977d9102a035987d7bbeb67f26fe50
 	height:716px;
 }
 
 #infusion{
 	background: url(../img/slide3.png) no-repeat fixed;
+<<<<<<< HEAD
+=======
+	background-size: 100%;
+>>>>>>> 3013e6d8a9977d9102a035987d7bbeb67f26fe50
 	height:716px;
 }
 
 #shipping{
 	background: url(../img/slide4.png) no-repeat fixed;
+<<<<<<< HEAD
 	height:716px;
 }
 
@@ -159,18 +183,40 @@ p{
 
 #diy{
 	background: url(../img/slide6.png) no-repeat fixed;
+=======
+	background-size: 100%;
+	height:1432px;
+}
+
+#diy{
+	background: url(../img/slide5.png) no-repeat fixed;
+	background-size: 100%;
+>>>>>>> 3013e6d8a9977d9102a035987d7bbeb67f26fe50
 	height:716px;
 }
 
 #printing{
+<<<<<<< HEAD
+=======
+	background: url(../img/slide7.png) no-repeat fixed;
+	background-size: 100%;
+>>>>>>> 3013e6d8a9977d9102a035987d7bbeb67f26fe50
 	height:716px;
 }
 
 #eating{
+<<<<<<< HEAD
 	height:716px;
+=======
+	background: url(../img/slide8.png) no-repeat fixed;
+	background-size: 100%;
+	height:910px;
+>>>>>>> 3013e6d8a9977d9102a035987d7bbeb67f26fe50
 }
 
 #description h1{
+	width:20%;
+	height:20%;
 	display: inline;
 	color: lime;
 	text-align: center;
@@ -179,6 +225,8 @@ p{
 }
 
 #description p{
+		width:20%;
+	height:20%;
 	display: inline;
 	text-align: center;
 	font-size: 1.3em;
@@ -238,7 +286,7 @@ p{
 
 /* Arrival */
 
-#arrival{
+#delivery{
 	position:relative;
 	width: 25%;
 	margin-left: auto;
@@ -291,6 +339,7 @@ p{
 
 footer{
 	width: 100%;
+	height:716px;
 	background: #7a7a7a;
 	margin-top: 10%;
 }
@@ -313,9 +362,58 @@ footer h1{
 /* Media queries */
 
 @media only (min-width: 0px) and (max-width: 320px) {
+<<<<<<< HEAD
+=======
+
+#intro-text{
+
+	background-size: 50%;
+	height:200px;
+}
+
+
+#creation{
+	background-size: 50%;
+	height:200px;
+}
+>>>>>>> 3013e6d8a9977d9102a035987d7bbeb67f26fe50
+
+#mixing-process{
+	background-size: 50%;
+	height:200px;
+}
+
+#infusion{
+	background-size: 50%;
+	height:200px;
+}
+
+<<<<<<< HEAD
+=======
+#shipping{
+	background-size: 50%;
+	height:200px;
+}
+
+#diy{
+	background-size: 50%;
+	height:200px;
+}
+
+#printing{
+	background-size: 50%;
+	height:200px;
 
 }
 
+#eating{
+	background-size: 50%;
+	height:200px;
+}
+
+}
+
+>>>>>>> 3013e6d8a9977d9102a035987d7bbeb67f26fe50
 @media only (min-width: 321px) and (max-width: 768px) {
 
 }
